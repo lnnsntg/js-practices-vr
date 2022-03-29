@@ -1,2 +1,2 @@
 # js-practices-vr
-Practices JS whit Victor Robles
+Practices JS with Victor Robles
