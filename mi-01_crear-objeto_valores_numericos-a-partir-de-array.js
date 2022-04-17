@@ -13,5 +13,5 @@ const obj = params => {
     }
   });
   return objeto;
-}
+};
 console.log(obj(alphabet));
