@@ -30,3 +30,25 @@ dividirArray([1, 2, 3, 4], 2);
 Dado un array, dividirlo en tantos sub-arrays como sea necesario
 basandonos en un número que indique su tamaño.
 */
+/* 
+function divideArrays(list, divisor) {
+
+  let newList = new Array();
+
+  while (list.length >= divisor) {
+    console.log(list.length);
+    newList.push(list.splice(0, divisor));
+    console.log(list);
+    console.log(newList);
+    console.log(list.length);
+  }
+  console.log("---------", list);
+  console.log(list.length);
+  if (list.length) newList.push(list);
+
+  return newList;
+
+}
+
+console.log(divideArrays([1, 2, 3, 4, 5], 2));
+*/
