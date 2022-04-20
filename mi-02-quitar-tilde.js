@@ -32,23 +32,23 @@ let mapear2 = vocales_split.map(letra => {
 
 const texto_vocales2 = "áoéáíottaíuúñ";
 
-function quitarAcentos2(texto) {
+function quitarAcentos2 (texto) {
   texto.toLowerCase();
-  return texto.split("").map(letra=>{
+  return texto.split("").map(letra => {
     //letra = letra.replace(new RegExp(/\s/g), "");
-     letra.replace(new RegExp(/[àáâãäå]/g), "a");
-     letra.replace(new RegExp(/æ/g), "ae");
-     letra.replace(new RegExp(/ç/g), "c");
-     letra.replace(new RegExp(/[èéêë]/g), "e");
-     letra.replace(new RegExp(/[ìíîï]/g), "i");
-     //letra.replace(new RegExp(/ñ/g), "n");
-     letra.replace(new RegExp(/[òóôõö]/g), "o");
-     letra.replace(new RegExp(/œ/g), "oe");
-     letra.replace(new RegExp(/[ùúûü]/g), "u");
-     letra.replace(new RegExp(/[ýÿ]/g), "y");
+    letra.replace(new RegExp(/[àáâãäå]/g), "a");
+    letra.replace(new RegExp(/æ/g), "ae");
+    letra.replace(new RegExp(/ç/g), "c");
+    letra.replace(new RegExp(/[èéêë]/g), "e");
+    letra.replace(new RegExp(/[ìíîï]/g), "i");
+    //letra.replace(new RegExp(/ñ/g), "n");
+    letra.replace(new RegExp(/[òóôõö]/g), "o");
+    letra.replace(new RegExp(/œ/g), "oe");
+    letra.replace(new RegExp(/[ùúûü]/g), "u");
+    letra.replace(new RegExp(/[ýÿ]/g), "y");
     //letra = letra.replace(new RegExp(/\W/g), "");
     return letra;
-  })//.join("").toString()
+  });//.join("").toString()
 }
 
 console.log(quitarAcentos2(texto_vocales2));
@@ -107,3 +107,6 @@ https://stackoverflow.com/questions/990904/remove-accents-diacritics-in-a-string
 // console.log(str.normalize("NFD").replace(/[\u0300-\u036f]/g, ""));
 
 // ====================================================================
+
+
+
