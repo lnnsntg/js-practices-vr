@@ -1,5 +1,5 @@
 const parrafo = "Recibe consejos sobre cómo mejorar tu texto mientras escribes un correo electrónico, una publicación de blog o simplemente un tuit. Independientemente del idioma que estés utilizando, LanguageTool lo detectará";
-let texto = "aEiou";
+let texto1 = "aEiou";
 let texto2 = "hjklp";
 
 /* 
@@ -32,5 +32,5 @@ function contarVocalesCurso (texto) {
   let coincidencias = texto.match(/[aeiouáéíóú]/gi)
   return coincidencias ? coincidencias.length : 0
 }
-
+ma
 console.log(contarVocalesCurso(texto2));

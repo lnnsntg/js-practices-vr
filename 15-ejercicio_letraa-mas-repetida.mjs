@@ -15,6 +15,7 @@ function caracterMasUsado (texto) {
     } else {
       mapeo_letras[letra] = 1;
     }
+    
   }
   console.log(mapeo_letras);
 
@@ -32,8 +33,7 @@ function caracterMasUsado (texto) {
 
   return { [letra_mas_repetida]: maximo_repeticiones };//Devuelve un objeto
 }
-console.log(caracterMasUsado(parrafo));
-
+console.log();
 /* 
 Dado un texto, devolver el carácter que más se repite.
 */

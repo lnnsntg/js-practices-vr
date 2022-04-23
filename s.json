@@ -1,0 +1,36 @@
+{
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.quickSuggestionsDelay": 10,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.suggestSelection": "recentlyUsed",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.parameterHints.enabled": true,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.renderWhitespace": "all",
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "workbench.tree.indent": 20,
+  "json.maxItemsComputed": 15000,
+  "npm.exclude": "",
+  "php.validate.executablePath": "C:/xampp/php/php.exe",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.colorTheme": "Monokai",
+  "security.workspace.trust.untrustedFiles": "open",
+  "javascript.format.semicolons": "insert",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.preferences": {},
+  "files.autoSave": "afterDelay",
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "http.proxyAuthorization": null
+}
