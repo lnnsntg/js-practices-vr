@@ -32,7 +32,7 @@ let mapear2 = vocales_split.map(letra => {
 
 const texto_vocales2 = "áoéáíottaíuúñ";
 
-function quitarAcentos2 (texto) {
+function limpiarTildesCaracteres (texto) {
   texto.toLowerCase();
   return texto.split("").map(letra => {
     //letra = letra.replace(new RegExp(/\s/g), "");
