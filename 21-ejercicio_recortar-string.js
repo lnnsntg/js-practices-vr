@@ -5,6 +5,8 @@ function recortar (texto, numero) {
   return texto.slice(0, numero);
 }
 console.log(recortar("Cursos de desarrollo", 6));
+
+
 function recortar2(texto, numero) {
   if (typeof texto === 'string' && typeof numero === 'number') {
     return texto.substring(0, numero);
